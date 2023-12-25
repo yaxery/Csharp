@@ -14,6 +14,14 @@ double sum3 = d1 + i1;
 int product1 = i1 * i2;
 long product2 = l1 * i1; 
 double product3 = d1 * i1; 
-Console.WriteLine(product1);
-Console.WriteLine(product2);
-Console.WriteLine(product3);
+//Console.WriteLine(product1);
+//Console.WriteLine(product2);
+//Console.WriteLine(product3);
+
+//quotient(quo) - частное
+int quo = i1 / i2;
+Console.WriteLine(quo);
+
+d1 = 6;
+double quo2 = i1 / d1;
+Console.WriteLine(quo2);
