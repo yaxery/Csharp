@@ -1,2 +1,58 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/*Задача 1
+Напишите программу, которая принимает на вход трёхзначное число и удаляет вторую цифру этого числа.
+Примеры
+a = 256 => 26
+a = 891 => 81
+*/
+
+/*int num = 756;
+int firstNum = num / 100; // Получаем последнюю цифру в числе (3)
+int secNum = num % 10; // Получаем первую цифру в числе (3)
+int result = firstNum * 10 + secNum;
+Console.WriteLine (result);
+*/
+
+/*Задача 2
+Напишите программу, которая принимает на вход трёхзначное число и возводит вторую цифру этого числа в степень,
+равную третьей цифре.
+
+Примеры
+
+487 => 8^7 = 2 097 152
+254 => 5^4 = 625
+617 => 1
+
+*/
+/*int num = 122;
+int secondDigit = num / 10 % 10;
+int thirdDigit = num % 10;
+
+double result = Math.Pow (secondDigit,thirdDigit);
+Console.WriteLine(result);
+*/
+
+/*Задача 3
+Напишите программу, которая будет принимать на вход два числа и выводить,
+является ли второе число кратным первому. Если второе число некратно первому,
+то программа выводит остаток от деления.
+
+Примеры
+
+14, 5 => нет, 4
+16, 8 => да
+4, 3 => нет, 1
+*/
+
+/*int num1 = 100;
+int num2 = 37;
+int remains = num1 % num2;
+
+if(num1 % num2 == 0){
+    Console.WriteLine("Yes");
+}
+else
+{
+    Console.WriteLine($"No, {remains}");
+}
+*/
+
