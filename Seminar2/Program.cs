@@ -56,3 +56,25 @@ else
 }
 */
 
+/*Задача 4*
+Напишите программу, которая выводит третью с начала цифру, заданного числа или сообщает, что третьей цифры нет.
+
+456 => 6
+7812 => 1
+91 => Третьей цифры нет
+*/
+
+/*int num = 269874536;
+if (num > 99)
+{
+    while (num > 999)
+    {
+        num = num / 10;
+    }
+    int thirdDigit = num % 10;
+    Console.WriteLine(thirdDigit);
+}
+else{
+    Console.WriteLine("Your number is`nt 3digit :)");
+}
+*/
